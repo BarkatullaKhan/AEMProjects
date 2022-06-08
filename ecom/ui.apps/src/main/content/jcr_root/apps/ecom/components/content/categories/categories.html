@@ -1,0 +1,17 @@
+<!-- Add overlay markup here.
+    NOTE: If you are solely extending a component and you don't need this then just delete the file. -->
+
+
+
+
+<div data-sly-use.categoryModel="ecom.core.models.CategoryModel" data-sly-unwrap></div>
+
+<h3 data-sly-test="${!categoryModel.categories}">Add Categories here</h3>
+
+<div data-sly-list.category="${categoryModel.categories}">
+ <div>
+  <h2>Category name: ${category.categoryName}</h2>
+  <img src="${category.imagePath}" alt="Category image" srcset="">
+  <hr>
+ </div>
+</div>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-06-08T19:14:10.133+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/ecom/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="English"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:lastModified="{Date}2022-05-27T12:37:57.707+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <header
+                jcr:created="{Date}2022-05-27T16:02:27.310+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-06-08T14:29:11.728+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ecom/components/content/header"
+                fileReferenceLogo="/content/dam/demorc/support-contact-img.jpg">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+                <navItems jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        navigationItem="EXPERTISE">
+                        <subItems jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Digital Consulting"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Digital Commerce"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                subItem="APIs and Integration"/>
+                        </subItems>
+                    </item0>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        navigationItem="INNOVATIONS">
+                        <subItems jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Product 360 Configure"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Your Own Commerce "/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Test Automation Framework(TEAF)"/>
+                        </subItems>
+                    </item1>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        navigationItem="MEDIA CENTER">
+                        <subItems jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                subItem=" Videos"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Guides"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Whitepapers"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Case Studies "/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Blogs "/>
+                        </subItems>
+                    </item2>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        navigationItem="COMPANY">
+                        <subItems jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                subItem="About Us"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                subItem=" Awards "/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Client Testimonial "/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                subItem="News &amp; Events"/>
+                        </subItems>
+                    </item3>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        navigationItem="CAREERS ">
+                        <subItems jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                subItem="Job Openings"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                subItem=" Software Trainee Program"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                subItem=" Internship"/>
+                        </subItems>
+                    </item4>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        navigationItem=" CONTACT US"/>
+                </navItems>
+            </header>
+            <categories
+                jcr:created="{Date}2022-06-08T13:32:45.710+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-06-08T13:54:15.378+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="ecom/components/content/categories"/>
+        </root>
+    </jcr:content>
+    <home/>
+</jcr:root>
